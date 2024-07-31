@@ -6,13 +6,19 @@ Este repositório contém o código e os dados utilizados para a análise de aci
 
 ## Estrutura do Repositório
 
-- **`datasets/`**: Contém os arquivos de dados utilizados na análise. Os dados foram processados e adaptados para o formato necessário para a execução do MCTS em cada caso.
-  - **`properties.csv`**: Este arquivo contém a base completa de dados, com atributos relevantes para a análise, como datas dos acidentes, tipos de veículos, e outras informações contextuais.
-  - **`qualities.csv`**: Contém uma coluna com o atributo específico da medida de qualidade analisada. Este arquivo é utilizado para definir as metas da análise com o MCTS.
+- **`analise_exploratoria/`**: Contém as bases de dados originais e scripts utilizados para geração
+das analises preliminares
 
-- **`src/`**: Contém scripts em Python utilizados para a preparação dos dados e análise exploratória inicial.
-  - **`geracao_entradas_mcts.py`**: Script responsável pela limpeza dos dados, tratamento de valores inválidos, criação de novas colunas (como dia da semana e período do dia), e preparação final para uso no MCTS.
-  - **`analise_exploratoria.py`**: Script que realiza uma análise exploratória inicial dos dados, gerando gráficos e estatísticas descritivas para contextualizar a análise.
+
+- **`descoberta_subgrupos_mcts/`**: Contém as bases de dados, scripts utilizados e resultados da aplicação do MCTS
+  - **`datasets/`**: Contém os arquivos de dados utilizados na análise. Os dados foram processados e adaptados para o formato necessário para a execução do MCTS em cada caso.
+    - **`properties.csv`**: Este arquivo contém a base completa de dados, com atributos relevantes para a análise, como datas dos acidentes, tipos de veículos, e outras informações contextuais.
+    - **`qualities.csv`**: Contém uma coluna com o atributo específico da medida de qualidade analisada. Este arquivo é utilizado para definir as metas da análise com o MCTS.
+
+  - **`src/`**: Contém scripts em Python utilizados para a preparação dos dados
+    - **`geracao_entradas_mcts.py`**: Script responsável pela limpeza dos dados, tratamento de valores inválidos, criação de novas colunas (como dia da semana e período do dia), e preparação final para uso no MCTS.
+    
+  - **`resultados/`**: Contém resultados gerados na descoberta de subgrupos
  
 - **`resultados/`**: Contém os resultados gerados por cada análise
  
