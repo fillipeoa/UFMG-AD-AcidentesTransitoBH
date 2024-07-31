@@ -20,12 +20,10 @@ das analises preliminares
     
   - **`resultados/`**: Contém resultados gerados na descoberta de subgrupos
  
-- **`resultados/`**: Contém os resultados gerados por cada análise
- 
 ## Como Executar
 
 1. **Preparação do Ambiente**: Configure o ambiente para a execução do MCTS, conforme descrito no [repositório MCTS4DM](https://github.com/guillaume-bosc/MCTS4DM). Certifique-se de ter o Java instalado e configurado corretamente.
 
-2. **Execução do MCTS**: Utilize os arquivos de dados `properties.csv` e `qualities.csv` presentes em cada pasta dentro de `datasets/` como entrada para o algoritmo MCTS. Siga as instruções do repositório base paran cofigurar os parâmetros, rodar o MCTS e explorar os padrões e subgrupos descobertos.
+2. **Execução do MCTS**: Utilize os arquivos de dados `properties.csv` e `qualities.csv` presentes em cada pasta dentro de `descoberta_subgrupos_mcts/datasets/` como entrada para o algoritmo MCTS. Siga as instruções do repositório base paran cofigurar os parâmetros, rodar o MCTS e explorar os padrões e subgrupos descobertos.
 
 3. **Análise dos Resultados**: Após a execução do MCTS, analise os padrões identificados para obter insights sobre os acidentes de trânsito em Belo Horizonte. Os resultados podem ser usados para formular políticas de segurança viária e intervenções específicas.
